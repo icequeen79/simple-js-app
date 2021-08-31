@@ -31,3 +31,11 @@ let pokemonList = [
     types: ['Hypnosis', 'Insomnia', 'Forewarn']
   },
 ];
+
+for (let i=0; i < pokemonList.length; i++) {
+if (pokemonList[i].length > 0){
+  document.write({pokemonList.name}, {pokemonList.height});
+} else (pokemonList[i].length < 10){
+  document.write("More info coming soon!");
+}
+}

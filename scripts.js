@@ -34,7 +34,7 @@ let pokemonList = [
 
 for (let i=0; i < pokemonList.length - 1; i++) {
 if (pokemonList[i].height > 1) {
-  document.write(pokemonList.name + ' ' + pokemonList[i].height);
+  document.write(pokemonList[i].name + ' ' + pokemonList[i].height);
   document.write('</br>')
 } else {
   document.write("More info coming soon!</br>");
